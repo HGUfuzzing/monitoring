@@ -1,7 +1,7 @@
 # About this project
 여러 컴퓨터의 여러 프로그램들을 한 눈에 모니터링 할 수 있게 한다.
 
-해당 repository는 모니터링 하고자하는 컴퓨터에서 데이터들을 firebase로 보내기 위한 push 프로그램 소스코드 파일이다.
+해당 branch는 모니터링 하고자하는 컴퓨터에서 데이터들을 firebase로 보내기 위한 push 프로그램 소스코드 파일이다.
 
 # How to start
 ### 1. 프로그램 소스코드 다운받기.
