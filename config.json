@@ -1,0 +1,31 @@
+{
+    "hostID" : "Hyeonseop's Computer",
+    "firebaseKEY": "/home/ubuntu/swfestival/privatekey/serviceAccountKey.json",
+    "databaseURL": "https://server-monitor-ing.firebaseio.com",
+
+    "prog-1": {
+        "name" : "real-afl-1",
+        "pid" : 4125,
+        "location" : "/home/ubuntu/swfestival/AFL/info.json"
+    },
+
+    "prog-2": {
+        "name" : "afl-2",
+        "pid" : 2,
+        "location" : "/home/ubuntu/swfestival/json/afl-2.json"
+    },
+
+    "prog-3": {
+        "name" : "ML program 1",
+        "pid" : 500,
+        "location" : "/home/ubuntu/swfestival/json/ML-1.json"
+    },
+
+    "prog-4": {
+        "name" : "ML program 2",
+        "pid" : 4,
+        "location" : "/home/ubuntu/swfestival/json/ML-2.json"
+    }
+
+    
+}
