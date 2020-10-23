@@ -1,0 +1,75 @@
+#result-section {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.Server-table { /* div with Several tables */
+    margin: auto;
+    border: grey;
+    padding-bottom: 10px;
+  }
+  
+.tabless { 
+    background-color: #eee;
+    display: inline-block;
+    margin: 2em;
+    width: 100%;
+}
+
+table {
+    background-color: #FFF;
+    border: none;
+    color: #565;
+    font: 12px arial;
+}
+
+table caption {
+    font-size: 24px;
+    border-bottom: 2px solid #858585;
+    border-top: 2px solid #858585;
+}
+
+table, td, th {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align:left;
+}
+
+tbody td, tbody th {
+    background-color: #dddddd;
+    border-bottom: 2px solid #858585;
+    border-top: 3px solid #FFFFFF;
+    padding: 9px;
+}
+
+
+tfoot td, tfoot th {
+    font-weight: bold;
+    padding: 4px 8px 6px 9px;
+    text-align:center;
+}
+
+thead th {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 0 8px 2px;
+    text-align:center;
+}
+
+tbody tr.odd th,tbody tr.odd td { /*odd is an even row*/
+    background-color: #b1b0b0;
+    border-bottom: 2px solid #949494;
+}
+
+td+td+td, /*The third td and subsequent td elements*/
+col.price{ /*Class style*/
+    text-align:right;
+}
+
+tbody tr:hover td, tbody tr:hover th { /*tr also has hover style*/
+    background-color: #949494;
+    color:#fff;
+}
